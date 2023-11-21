@@ -1,11 +1,9 @@
 <h1>Habit Tracker</h1>
 <hr>
-<h3> How to run the Website ?</h3>
-<p>Either clone the repository and run or use above Link</p>
 <hr>
 <h2> Brief Intro about the Website</h2>
 <p>
-LoopBit is a habit tracker website made using <b>NodeJS</b>, <b>MongoDB</b> and vanilla <b>JavaScript.</b><br> Here you can keep a record of your day to day habits.You can create a habit and check you record for past few days.<br>
+This habit tracker website made using <b>NodeJS</b>, <b>MongoDB</b> and vanilla <b>JavaScript.</b><br> Here you can keep a record of your day to day habits.You can create a habit and check you record for past few days.<br>
 We can also remove a habit which we don't need anymore.
 </p>
 <hr>
