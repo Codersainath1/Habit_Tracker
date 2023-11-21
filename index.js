@@ -1,7 +1,9 @@
 // requiring express and creating port
 const express = require('express');
 const app = express();
-const port = 8000;
+const dotenv = require('dotenv');
+dotenv.config();
+const port = process.env.PORT;
 const db = require('./config/mongoose');
 const path=require('path')
 const expressLayout = require('express-ejs-layouts');
