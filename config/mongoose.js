@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
+require('dotenv').config();
+const url=process.env.Mongo_Url;
 // connecting to mongoose
-mongoose.connect('mongodb://127.0.0.1/habit_db');
+mongoose.connect(url);
 // mongoose database connection
 const db = mongoose.connection;
 db.on('error',console.error.bind(console,"Error connecting to MongoDb"));
