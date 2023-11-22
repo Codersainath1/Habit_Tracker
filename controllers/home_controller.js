@@ -3,11 +3,11 @@ const Habit = require('../models/habits');
 module.exports.home = function(req,res){
     Habit.find({},function(err,habits){
         if(err){
-            Console.log('Error in fetching the habits');
+            console.log('Error in fetching the habits');
             return;
         }
         return res.render('index',{
-            title:"LoopBit",
+            title:"Habits",
             habit_list:habits
         });
     })
